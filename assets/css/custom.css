@@ -347,3 +347,87 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+
+/* =========================================
+   STEP 4 - SKILLS & CERTIFICATIONS
+   ========================================= */
+
+/* Skills cards */
+
+#skills .features article {
+    padding: 1.8em;
+    transition: transform 0.25s ease,
+                background-color 0.25s ease;
+}
+
+#skills .features article:hover {
+    transform: translateY(-4px);
+}
+
+#skills .features article > .icon {
+    font-size: 2em;
+    color: #b74e91;
+    margin-bottom: 1em;
+}
+
+#skills .features article h3 {
+    margin-bottom: 1em;
+}
+
+#skills .skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#skills .skill-list li {
+    padding: 0.45em 0;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    line-height: 1.5;
+}
+
+#skills .skill-list li:last-child {
+    border-bottom: none;
+}
+
+/* Certification cards */
+
+#certifications .certification-card {
+    padding: 2em;
+    transition: transform 0.25s ease;
+}
+
+#certifications .certification-card:hover {
+    transform: translateY(-4px);
+}
+
+#certifications .certification-card > .icon {
+    font-size: 2.2em;
+    color: #b74e91;
+    margin-bottom: 1em;
+}
+
+#certifications .certification-card h3 {
+    margin-bottom: 0.5em;
+}
+
+#certifications .certification-card h4 {
+    margin-bottom: 1em;
+    opacity: 0.85;
+}
+
+#certifications .certification-meta {
+    font-size: 0.9em;
+    margin-top: 1.5em;
+    opacity: 0.85;
+}
+
+/* Mobile adjustments */
+
+@media screen and (max-width: 736px) {
+    #skills .features article,
+    #certifications .certification-card {
+        padding: 1.3em;
+    }
+}
+

@@ -1,0 +1,213 @@
+
+/* =========================================
+   ARAVIND MARIYAPPAN - PERSONAL WEBSITE
+   Custom styling
+   ========================================= */
+
+/* ---------- General ---------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+body, input, select, textarea {
+    letter-spacing: 0.02em;
+}
+
+p {
+    line-height: 1.75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0.03em;
+}
+
+/* ---------- Header ---------- */
+
+#header {
+    background: rgba(36, 41, 67, 0.96);
+}
+
+#header nav a {
+    transition: color 0.2s ease;
+}
+
+/* ---------- Hero section ---------- */
+
+#banner {
+    padding-top: 8em;
+    padding-bottom: 5em;
+}
+
+#banner h2 {
+    font-size: 2.8em;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    max-width: 850px;
+}
+
+#banner p {
+    font-size: 1.2em;
+    max-width: 750px;
+    line-height: 1.7;
+}
+
+#banner .major {
+    margin-bottom: 1.5em;
+}
+
+/* ---------- Section headings ---------- */
+
+.wrapper.style1 h2,
+.wrapper.style2 h2,
+.wrapper.style3 h2 {
+    margin-bottom: 1.2em;
+}
+
+.wrapper h3 {
+    margin-bottom: 0.5em;
+}
+
+/* ---------- About section ---------- */
+
+#about p {
+    max-width: 950px;
+}
+
+/* ---------- Experience section ---------- */
+
+#experience .features,
+#experience .spotlights {
+    margin-top: 2em;
+}
+
+#experience h3 {
+    margin-bottom: 0.3em;
+}
+
+#experience h4 {
+    font-size: 1em;
+    opacity: 0.85;
+    margin-bottom: 1em;
+}
+
+#experience ul {
+    margin-top: 0.5em;
+}
+
+#experience li {
+    margin-bottom: 0.4em;
+}
+
+/* ---------- Skills ---------- */
+
+#skills .features article {
+    padding: 1.5em;
+}
+
+#skills .features article h3 {
+    margin-bottom: 0.8em;
+}
+
+/* ---------- Certifications ---------- */
+
+#certifications .features article {
+    padding: 1.5em;
+}
+
+/* ---------- Projects ---------- */
+
+#projects .features article {
+    padding: 1.5em;
+}
+
+#projects .features article p {
+    margin-bottom: 0;
+}
+
+/* ---------- Contact ---------- */
+
+#contact .inner {
+    max-width: 1100px;
+}
+
+#contact .contact-method {
+    margin-bottom: 1.5em;
+}
+
+#contact a {
+    transition: color 0.2s ease;
+}
+
+/* ---------- Buttons ---------- */
+
+.button {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+/* ---------- Footer ---------- */
+
+#footer {
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
+
+#footer .copyright {
+    font-size: 0.85em;
+    opacity: 0.75;
+}
+
+/* ---------- Responsive adjustments ---------- */
+
+@media screen and (max-width: 980px) {
+
+    #banner {
+        padding-top: 6em;
+    }
+
+    #banner h2 {
+        font-size: 2.2em;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #banner {
+        padding-top: 5em;
+        padding-bottom: 3em;
+    }
+
+    #banner h2 {
+        font-size: 1.8em;
+    }
+
+    #banner p {
+        font-size: 1em;
+    }
+
+    .wrapper {
+        padding: 3em 1.5em 1em 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #banner h2 {
+        font-size: 1.6em;
+    }
+
+    #banner p {
+        font-size: 0.95em;
+    }
+
+}

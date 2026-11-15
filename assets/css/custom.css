@@ -431,3 +431,152 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+
+/* =========================================
+   STEP 5B - PROJECTS & RESEARCH
+   ========================================= */
+
+/* Project cards */
+
+#projects .project-card {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease,
+                background-color 0.25s ease;
+}
+
+#projects .project-card:hover {
+    transform: translateY(-5px);
+}
+
+#projects .project-card > .icon {
+    font-size: 2.2em;
+    color: #b74e91;
+    margin-bottom: 1em;
+}
+
+#projects .project-card h3 {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 0.7em;
+}
+
+#projects .project-card h4 {
+    font-size: 0.95em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+}
+
+#projects .project-type {
+    font-size: 0.85em;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-bottom: 1em;
+}
+
+#projects .project-card p {
+    line-height: 1.7;
+}
+
+#projects .project-card ul {
+    padding-left: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+#projects .project-card li {
+    margin-bottom: 0.45em;
+    line-height: 1.5;
+}
+
+/* Technology tags */
+
+#projects .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: auto;
+    padding-top: 1em;
+}
+
+#projects .project-tags span {
+    display: inline-block;
+    padding: 0.35em 0.8em;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 4px;
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    background: rgba(255,255,255,0.04);
+}
+
+/* Project status */
+
+#projects .project-status {
+    font-size: 0.85em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    padding-top: 0.8em;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    opacity: 0.85;
+}
+
+/* International engagement */
+
+#international .features article {
+    padding: 2em;
+    transition: transform 0.25s ease;
+}
+
+#international .features article:hover {
+    transform: translateY(-4px);
+}
+
+#international .features article > .icon {
+    font-size: 2.2em;
+    color: #b74e91;
+    margin-bottom: 1em;
+}
+
+#international .features article h3 {
+    margin-bottom: 0.8em;
+}
+
+#international .features article p {
+    line-height: 1.7;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 980px) {
+
+    #projects .project-card,
+    #international .features article {
+        padding: 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #projects .project-card,
+    #international .features article {
+        padding: 1.2em;
+    }
+
+    #projects .project-card h3 {
+        font-size: 1.1em;
+    }
+
+    #projects .project-tags {
+        gap: 0.4em;
+    }
+
+    #projects .project-tags span {
+        font-size: 0.7em;
+    }
+
+}
+
+
